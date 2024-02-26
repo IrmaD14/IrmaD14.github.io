@@ -316,6 +316,8 @@ ol, ul {
 			.image.main {
 				margin: 2rem 0;
 			}
+
+		}
 	.center {
 			display: block;
 			margin-left: auto;
@@ -323,7 +325,6 @@ ol, ul {
 			margin-bottom: 20px;
 			width: 50%;
 		}
-	}
 
 /* Actions */
 
