@@ -988,6 +988,13 @@ ol, ul {
 			}
 
 		}
+	#main > .inner > header{
+		margin-bottom: 30px;
+	}
+
+	#main > .inner > p{
+		margin-bottom: 15px;
+	}
 
 /* Footer */
 
