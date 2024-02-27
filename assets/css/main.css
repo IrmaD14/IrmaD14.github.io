@@ -996,6 +996,40 @@ ol, ul {
 		margin-bottom: 15px;
 	}
 
+	#main > .inner > .responsive > .gallery {
+		display: block;
+	  }
+
+	#main > .inner > .responsive > .gallery img {
+		width: 100%;
+		height: auto;
+	} 
+
+	#main > .inner > .responsive {
+		float: left;
+		width: 30%;
+		margin-left: 1%;
+		margin-right: 2%;
+	  } 
+		@media only screen and (max-width: 736px) {
+			.responsive {
+				width: 50%;
+    			margin: 4px 0;
+			}
+	  	}
+	  
+		@media only screen and (max-width: 480px) {
+			.responsive {
+				width: 100%;
+			}
+	  	}
+
+	#main > .inner > .clearfix:after {
+		content: "";
+		display: table;
+		clear: both;
+	}
+
 /* Footer */
 
 	#footer {
